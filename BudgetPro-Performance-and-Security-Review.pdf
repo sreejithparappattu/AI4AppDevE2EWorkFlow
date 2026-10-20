@@ -1,0 +1,241 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Title (Performance and Security Review of Using AI) /Author (Sreejith P R) /Subject (BudgetPro project security and performance review) /Creator (AI-assisted source review) /CreationDate (D:20261020) >>
+endobj
+6 0 obj
+<< /Length 1384 >>
+stream
+0.980 0.985 0.995 rg 0 0 612 792 re f
+0.196 0.420 0.855 rg 0 784 612 8 re f
+0.075 0.141 0.227 rg 0 0 19 784 re f
+BT /F2 10 Tf 0.196 0.420 0.855 rg 1 0 0 1 61 710 Tm (BUDGETPRO) Tj ET
+BT /F2 8 Tf 0.290 0.370 0.480 rg 1 0 0 1 61 692 Tm (PERFORMANCE  /  SECURITY  /  ENGINEERING) Tj ET
+0.075 0.141 0.227 rg 61 374 490 252 re f
+0.196 0.420 0.855 rg 61 374 6 252 re f
+BT /F2 8.5 Tf 0.650 0.760 0.970 rg 1 0 0 1 87 586.5 Tm (PROJECT REVIEW) Tj ET
+BT /F2 23 Tf 1.000 1.000 1.000 rg 1 0 0 1 87 525 Tm (Performance and Security) Tj ET
+BT /F2 23 Tf 1.000 1.000 1.000 rg 1 0 0 1 87 491 Tm (Review of Using AI) Tj ET
+0.360 0.590 0.980 RG 2 w 87 466 m 207 466 l S
+BT /F1 9 Tf 0.850 0.890 0.960 rg 1 0 0 1 87 434 Tm (React frontend  /  Node.js + Express  /  PostgreSQL) Tj ET
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 87 318 Tm (PROJECT) Tj ET
+BT /F2 14 Tf 0.075 0.141 0.227 rg 1 0 0 1 87 296 Tm (BudgetPro) Tj ET
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 87 256 Tm (PREPARED BY) Tj ET
+BT /F2 12 Tf 0.075 0.141 0.227 rg 1 0 0 1 87 236 Tm (Sreejith P R) Tj ET
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 87 194 Tm (DATE) Tj ET
+BT /F2 12 Tf 0.075 0.141 0.227 rg 1 0 0 1 87 174 Tm (20 October 2026) Tj ET
+0.870 0.900 0.940 RG 0.7 w 87 86 m 550 86 l S
+BT /F2 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 87 62.5 Tm (AI-ASSISTED SOURCE REVIEW) Tj ET
+BT /F2 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 515 62.5 Tm (2026) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 6470 >>
+stream
+0.196 0.420 0.855 rg 0 786 612 6 re f
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 760 Tm (BUDGETPRO  /  ENGINEERING REVIEW) Tj ET
+BT /F2 8 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 741 Tm (PROCESS OVERVIEW) Tj ET
+0.870 0.900 0.940 RG 0.7 w 47 38 m 565 38 l S
+BT /F1 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 20.5 Tm (AI-assisted static source review - October 20, 2026) Tj ET
+BT /F2 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 514 20.5 Tm (PAGE 2 OF 4) Tj ET
+BT /F2 23 Tf 0.075 0.141 0.227 rg 1 0 0 1 47 705 Tm (Process Overview) Tj ET
+BT /F2 10 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 686.24 Tm (Project: BudgetPro | Scope: React frontend, Node.js/Express API, PostgreSQL) Tj ET
+0.945 0.961 0.988 rg 47 617.44 518 55 re f 0.870 0.900 0.940 RG 47 617.44 518 55 re S
+0.196 0.420 0.855 rg 47 617.44 4 55 re f
+BT /F2 7.5 Tf 0.196 0.420 0.855 rg 1 0 0 1 60 657.94 Tm (REVIEW TYPE) Tj ET
+BT /F1 8.4 Tf 0.075 0.141 0.227 rg 1 0 0 1 60 645.0400000000001 Tm (AI-assisted, source-based assessment of the checked-in implementation. This is not a penetration test, dependency) Tj ET
+BT /F1 8.4 Tf 0.075 0.141 0.227 rg 1 0 0 1 60 634.0400000000001 Tm (audit, or measured load test.) Tj ET
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 599.44 Tm (01 / PROCESS OVERVIEW) Tj ET
+BT /F1 8.8 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 583.6400000000001 Tm (The review traced browser input through API validation and database operations, then back to React state and rendering.) Tj ET
+BT /F1 8.8 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 571.4960000000001 Tm (Separate, bounded prompts were used for each layer so findings could be tied to observable code rather than assumptions.) Tj ET
+1.000 1.000 1.000 rg 47 503.46200000000005 518 56.69 re f 0.870 0.900 0.940 RG 47 503.46200000000005 518 56.69 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 543.952 Tm (REACT FRONTEND PROMPT) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 529.402 Tm ("Trace authentication and transaction data flow in the React client. Check browser storage, API error handling, dashboard) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 519.172 Tm (calculations, and whether rendering or data transfer grows with account history. Cite implementation evidence and separate current) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 508.942 Tm (behavior from scale risk.") Tj ET
+1.000 1.000 1.000 rg 47 441.772 518 56.69 re f 0.870 0.900 0.940 RG 47 441.772 518 56.69 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 482.262 Tm (EXPRESS / SECURITY PROMPT) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 467.712 Tm ("Review routes, session cookies, authentication, validation, SQL parameterization, authorization boundaries, error handling, and) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 457.48199999999997 Tm (HTTP protections. For each concern, state preconditions, impact, confidence, and mitigation; do not claim exploitability without) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 447.252 Tm (evidence.") Tj ET
+1.000 1.000 1.000 rg 47 380.082 518 56.69 re f 0.870 0.900 0.940 RG 47 380.082 518 56.69 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 420.572 Tm (POSTGRESQL / SCALE PROMPT) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 406.022 Tm ("Inspect schema, constraints, indexes, startup behavior, and query shapes. Estimate how transaction volume and concurrency affect) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 395.792 Tm (query work, response size, connection demand, and financial precision. Recommend incremental changes supported by observed) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 385.562 Tm (design.") Tj ET
+1.000 1.000 1.000 rg 47 328.622 518 46.46 re f 0.870 0.900 0.940 RG 47 328.622 518 46.46 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 358.882 Tm (CROSS-LAYER SYNTHESIS PROMPT) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 344.332 Tm ("Combine findings without duplication. Rank security concerns by severity and confidence; classify each as observed control,) Tj ET
+BT /F1 7.75 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 334.102 Tm (observed gap, or conditional risk. Rank performance actions by expected bottleneck and identify what requires measurement.") Tj ET
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 314.622 Tm (HOW OUTPUTS WERE ANALYZED) Tj ET
+0.945 0.961 0.988 rg 47 255.622 253 52 re f 0.870 0.900 0.940 RG 47 255.622 253 52 re S
+BT /F2 8.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 56 293.522 Tm (1 / Establish evidence) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 56 282.522 Tm (Read the source files and map claims to routes, components,) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 56 273.522 Tm (queries, or schema constraints. Avoid unsupported assumptions.) Tj ET
+0.945 0.961 0.988 rg 312 255.622 253 52 re f 0.870 0.900 0.940 RG 312 255.622 253 52 re S
+BT /F2 8.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 321 293.522 Tm (2 / Trace end to end) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 321 282.522 Tm (Follow input -> validation -> identity/authorization -> SQL ->) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 321 273.522 Tm (response -> React render. Confirm ownership at the API boundary.) Tj ET
+0.945 0.961 0.988 rg 47 197.62200000000007 253 52 re f 0.870 0.900 0.940 RG 47 197.62200000000007 253 52 re S
+BT /F2 8.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 56 235.52200000000008 Tm (3 / Assess risk) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 56 224.52200000000008 Tm (Consider preconditions and impact; rank severity and confidence.) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 56 215.52200000000008 Tm (Distinguish direct defects from defense-in-depth gaps.) Tj ET
+0.945 0.961 0.988 rg 312 197.62200000000007 253 52 re f 0.870 0.900 0.940 RG 312 197.62200000000007 253 52 re S
+BT /F2 8.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 321 235.52200000000008 Tm (4 / Assess scale) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 321 224.52200000000008 Tm (Compare query work and returned rows with account growth; inspect) Tj ET
+BT /F1 7.1 Tf 0.290 0.370 0.480 rg 1 0 0 1 321 215.52200000000008 Tm (indexing and connection behavior. Treat forecasts as hypotheses.) Tj ET
+BT /F1 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 178.12200000000007 Tm (Prompts document the review questions used to structure this report; they are not claimed as a verbatim transcript of earlier prompt) Tj ET
+BT /F1 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 167.77200000000005 Tm (history. Validate findings against deployment configuration and runtime tests.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 6232 >>
+stream
+0.196 0.420 0.855 rg 0 786 612 6 re f
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 760 Tm (BUDGETPRO  /  ENGINEERING REVIEW) Tj ET
+BT /F2 8 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 741 Tm (SECURITY ANALYSIS) Tj ET
+0.870 0.900 0.940 RG 0.7 w 47 38 m 565 38 l S
+BT /F1 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 20.5 Tm (AI-assisted static source review - October 20, 2026) Tj ET
+BT /F2 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 514 20.5 Tm (PAGE 3 OF 4) Tj ET
+BT /F2 22 Tf 0.075 0.141 0.227 rg 1 0 0 1 47 706 Tm (Security analysis) Tj ET
+BT /F1 8.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 686.66 Tm (No critical or high-severity exploitable defect was confirmed in reviewed source. Findings below are code-level hardening) Tj ET
+BT /F1 8.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 674.654 Tm (gaps or conditional risks to address before handling real financial data at scale.) Tj ET
+1.000 1.000 1.000 rg 47 604.856 518 56.492000000000004 re f 0.870 0.900 0.940 RG 47 604.856 518 56.492000000000004 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 645.1479999999999 Tm (MEDIUM / HARDENING - No visible auth rate limit) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 630.6479999999999 Tm (Registration and login accept requests without throttling, lockout, or abuse controls. This can enable high-volume password) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 620.4839999999999 Tm (guessing, credential stuffing, and signup abuse; no successful compromise was demonstrated. Evidence: server/index.js:132-169.) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 610.3199999999999 Tm (Mitigate with per-IP and per-account throttling, progressive backoff, and monitoring.) Tj ET
+1.000 1.000 1.000 rg 47 532.2 518 66.656 re f 0.870 0.900 0.940 RG 47 532.2 518 66.656 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 582.656 Tm (MEDIUM / CONDITIONAL - No explicit CSRF/origin check) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 568.156 Tm (Transaction creation relies on an automatically sent session cookie. SameSite=Lax and allowlisted CORS help, but CORS is not a) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 557.992 Tm (general CSRF defense; same-site cross-origin contexts \(such as a compromised sibling subdomain\) may still matter. Evidence:) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 547.828 Tm (server/index.js:15-20, 49, 202-222. Verify request Origin/Fetch Metadata and add a CSRF token if deployment requires cross-site) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 537.664 Tm (cookies.) Tj ET
+1.000 1.000 1.000 rg 47 469.708 518 56.492000000000004 re f 0.870 0.900 0.940 RG 47 469.708 518 56.492000000000004 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 510.00000000000006 Tm (LOW / DEFENSE-IN-DEPTH - No visible security headers) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 495.5 Tm (Production serves static assets without visible Helmet/security-header middleware. CSP, HSTS, clickjacking, and MIME-sniffing) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 485.336 Tm (policies are not set in this app code; an upstream proxy may already supply some. Evidence: server/index.js:226-229. Configure) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 475.17199999999997 Tm (Helmet/CSP and HSTS at the HTTPS edge; verify deployed responses.) Tj ET
+1.000 1.000 1.000 rg 47 407.21599999999995 518 56.492000000000004 re f 0.870 0.900 0.940 RG 47 407.21599999999995 518 56.492000000000004 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 447.508 Tm (LOW / CONDITIONAL - Seven-day JWT cannot be revoked) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 433.008 Tm (Logout clears the browser cookie, but a copied JWT remains valid until expiry. HttpOnly reduces script access; no token theft was) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 422.844 Tm (observed. Evidence: server/index.js:60-61, 166-169. Shorten access-token life and add revocation/rotation if prompt invalidation is) Tj ET
+BT /F1 7.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 412.68 Tm (required.) Tj ET
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 393.21599999999995 Tm (POSITIVE CONTROLS OBSERVED) Tj ET
+0.890 0.960 0.920 rg 47 353.21599999999995 253 33 re f 0.870 0.900 0.940 RG 47 353.21599999999995 253 33 re S
+BT /F2 7 Tf 0.120 0.410 0.290 rg 1 0 0 1 55 374.21599999999995 Tm (IN PLACE) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 114 374.11599999999993 Tm (Passwords hashed with bcrypt \(cost 12\); raw) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 114 365.5159999999999 Tm (passwords are not persisted.) Tj ET
+0.890 0.960 0.920 rg 312 353.21599999999995 253 33 re f 0.870 0.900 0.940 RG 312 353.21599999999995 253 33 re S
+BT /F2 7 Tf 0.120 0.410 0.290 rg 1 0 0 1 320 374.21599999999995 Tm (IN PLACE) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 379 374.11599999999993 Tm (JWT held in HttpOnly, SameSite=Lax cookie; Secure) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 379 365.5159999999999 Tm (enabled in production mode.) Tj ET
+0.890 0.960 0.920 rg 47 315.21599999999995 253 33 re f 0.870 0.900 0.940 RG 47 315.21599999999995 253 33 re S
+BT /F2 7 Tf 0.120 0.410 0.290 rg 1 0 0 1 55 336.21599999999995 Tm (IN PLACE) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 114 336.11599999999993 Tm (Parameterized transaction SQL is scoped to the) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 114 327.5159999999999 Tm (authenticated user ID.) Tj ET
+0.890 0.960 0.920 rg 312 315.21599999999995 253 33 re f 0.870 0.900 0.940 RG 312 315.21599999999995 253 33 re S
+BT /F2 7 Tf 0.120 0.410 0.290 rg 1 0 0 1 320 336.21599999999995 Tm (IN PLACE) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 379 336.11599999999993 Tm (Request payloads are validated; database) Tj ET
+BT /F1 7.1 Tf 0.075 0.141 0.227 rg 1 0 0 1 379 327.5159999999999 Tm (constraints reinforce invariants.) Tj ET
+1.000 0.973 0.910 rg 47 270.21599999999995 518 36 re f 0.940 0.860 0.660 RG 47 270.21599999999995 518 36 re S
+BT /F1 7.5 Tf 0.075 0.141 0.227 rg 1 0 0 1 57 291.71599999999995 Tm (Scope limit: static source review only. No live database, production headers/proxy, browser CSRF test, penetration test, or independent) Tj ET
+BT /F1 7.5 Tf 0.075 0.141 0.227 rg 1 0 0 1 57 282.71599999999995 Tm (dependency scan was assessed.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 6161 >>
+stream
+0.196 0.420 0.855 rg 0 786 612 6 re f
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 760 Tm (BUDGETPRO  /  ENGINEERING REVIEW) Tj ET
+BT /F2 8 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 741 Tm (PERFORMANCE CONSIDERATIONS) Tj ET
+0.870 0.900 0.940 RG 0.7 w 47 38 m 565 38 l S
+BT /F1 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 20.5 Tm (AI-assisted static source review - October 20, 2026) Tj ET
+BT /F2 7.5 Tf 0.290 0.370 0.480 rg 1 0 0 1 514 20.5 Tm (PAGE 4 OF 4) Tj ET
+BT /F2 22 Tf 0.075 0.141 0.227 rg 1 0 0 1 47 706 Tm (Performance considerations) Tj ET
+BT /F1 8.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 686.66 Tm (The schema includes a useful per-user/date index. The largest expected scaling pressure is unbounded transaction-history) Tj ET
+BT /F1 8.7 Tf 0.290 0.370 0.480 rg 1 0 0 1 47 674.654 Tm (retrieval - not rendering the eight recent rows.) Tj ET
+1.000 1.000 1.000 rg 47 605.252 518 56.096000000000004 re f 0.870 0.900 0.940 RG 47 605.252 518 56.096000000000004 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 645.1479999999999 Tm (1 / Full history is fetched and summarized in React) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 630.7479999999999 Tm (GET /api/transactions returns every user row; React downloads the full list, then filters the month and calculates totals. Only eight) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 620.716 Tm (rows are displayed, but all history is transferred and retained. Response bytes, query work, memory, and dashboard latency grow with) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 610.684 Tm (account history. Evidence: server/index.js:186-198; src/App.jsx:190-210, 235-250, 280-299.) Tj ET
+1.000 1.000 1.000 rg 47 544.156 518 56.096000000000004 re f 0.870 0.900 0.940 RG 47 544.156 518 56.096000000000004 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 584.0519999999999 Tm (2 / Aggregates run after full transfer) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 569.6519999999999 Tm (Monthly totals and expense-category totals are computed in JavaScript after all transactions arrive. Keep aggregate work in SQL and) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 559.62 Tm (separate it from transaction history. Add date-bounded summary queries and a size-capped recent-transaction endpoint with) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 549.588 Tm (deterministic cursor pagination; align indexes to the filters and sort.) Tj ET
+1.000 1.000 1.000 rg 47 483.05999999999995 518 56.096000000000004 re f 0.870 0.900 0.940 RG 47 483.05999999999995 518 56.096000000000004 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 522.9559999999999 Tm (3 / Connection demand scales per API process) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 508.5559999999999 Tm (The pg Pool uses its default per-process limit. Replicas multiply possible connections and can exhaust PostgreSQL capacity before) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 498.524 Tm (application CPU is saturated. Set max/acquisition/idle limits against the DB budget; monitor wait time and active connections;) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 488.49199999999996 Tm (consider PgBouncer when needed.) Tj ET
+1.000 1.000 1.000 rg 47 431.996 518 46.064 re f 0.870 0.900 0.940 RG 47 431.996 518 46.064 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 461.86 Tm (4 / Schema DDL is coupled to API startup) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 447.46 Tm (Each API process executes CREATE TABLE / index DDL before serving. This can race across replicas and requires schema privileges on) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 437.428 Tm (the runtime account. Move changes to versioned, single-run migrations and restrict the runtime DB role to needed data permissions.) Tj ET
+1.000 1.000 1.000 rg 47 370.9 518 56.096000000000004 re f 0.870 0.900 0.940 RG 47 370.9 518 56.096000000000004 re S
+BT /F2 9.2 Tf 0.075 0.141 0.227 rg 1 0 0 1 58 410.796 Tm (5 / Amounts cross into binary floating point) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 396.39599999999996 Tm (PostgreSQL stores NUMERIC\(12,2\), but the API casts to float8 and React sums floating-point values. Rounding drift can appear in) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 386.364 Tm (larger aggregates. Keep amounts/aggregates as NUMERIC decimal strings or use integer minor units consistently; test rounding) Tj ET
+BT /F1 7.6 Tf 0.290 0.370 0.480 rg 1 0 0 1 58 376.33199999999994 Tm (behavior.) Tj ET
+BT /F2 8 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 357.9 Tm (RECOMMENDED ROLLOUT) Tj ET
+BT /F2 7.4 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 344.5 Tm (NOW:) Tj ET
+BT /F1 7.4 Tf 0.290 0.370 0.480 rg 1 0 0 1 150 344.5 Tm (Measure response size and p50/p95 latency with representative small and large histories; add query and pool) Tj ET
+BT /F1 7.4 Tf 0.290 0.370 0.480 rg 1 0 0 1 150 335.3 Tm (metrics.) Tj ET
+BT /F2 7.4 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 322.1 Tm (BEFORE GROWTH:) Tj ET
+BT /F1 7.4 Tf 0.290 0.370 0.480 rg 1 0 0 1 150 322.1 Tm (Split SQL summaries from paginated history; cap page size and use stable cursors. Verify plans with EXPLAIN) Tj ET
+BT /F1 7.4 Tf 0.290 0.370 0.480 rg 1 0 0 1 150 312.90000000000003 Tm (\(ANALYZE, BUFFERS\) on realistic data.) Tj ET
+BT /F2 7.4 Tf 0.196 0.420 0.855 rg 1 0 0 1 47 299.70000000000005 Tm (AT HIGHER CONCURRENCY:) Tj ET
+BT /F1 7.4 Tf 0.290 0.370 0.480 rg 1 0 0 1 150 299.70000000000005 Tm (Load-test realistic read/write mixes, tune pool limits to PostgreSQL capacity, and add pooling/caching only when) Tj ET
+BT /F1 7.4 Tf 0.290 0.370 0.480 rg 1 0 0 1 150 290.50000000000006 Tm (measurements justify it. Re-test user isolation and totals.) Tj ET
+0.945 0.961 0.988 rg 47 246.70000000000005 518 37 re f 0.870 0.900 0.940 RG 47 246.70000000000005 518 37 re S
+BT /F1 7.4 Tf 0.075 0.141 0.227 rg 1 0 0 1 57 269.30000000000007 Tm (Conclusion: appropriate for a small application. Prioritize bounded data access and SQL summaries before transaction history grows; use) Tj ET
+BT /F1 7.4 Tf 0.075 0.141 0.227 rg 1 0 0 1 57 260.30000000000007 Tm (production-like measurements to decide when additional pooling, caching, or indexing is warranted.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000211 00000 n 
+0000000286 00000 n 
+0000000508 00000 n 
+0000001944 00000 n 
+0000002080 00000 n 
+0000008602 00000 n 
+0000008738 00000 n 
+0000015023 00000 n 
+0000015161 00000 n 
+0000021375 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R /Info 5 0 R >>
+startxref
+21513
+%%EOF

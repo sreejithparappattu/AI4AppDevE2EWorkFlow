@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Performance and Security Review of BudgetPro Using AI</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #1e2b3e; font-family: Arial, Helvetica, sans-serif; font-size: 9.5pt; line-height: 1.38; }
+  .page { width: 8.5in; height: 11in; padding: .56in .65in .58in; position: relative; page-break-after: always; overflow: hidden; }
+  .page:last-child { page-break-after: auto; }
+  .topline { height: 6px; background: #326bda; position: absolute; left: 0; right: 0; top: 0; }
+  .brand { text-transform: uppercase; letter-spacing: 1.8px; color: #326bda; font-weight: 700; font-size: 8pt; margin: 0 0 10px; }
+  h1 { font-size: 27pt; line-height: 1.08; letter-spacing: -.6px; margin: 0 0 10px; color: #13243a; }
+  h2 { font-size: 21pt; line-height: 1.15; margin: 2px 0 10px; color: #13243a; }
+  h3 { font-size: 11pt; margin: 0 0 5px; color: #18345c; }
+  p { margin: 0 0 8px; }
+  .subtitle { color: #50647e; font-size: 12pt; margin-bottom: 16px; }
+  .meta { color: #53657b; font-size: 8.5pt; }
+  .hero { background: #f1f5fd; border-left: 4px solid #326bda; border-radius: 3px; padding: 11px 14px; margin: 0 0 13px; }
+  .hero strong { color: #18345c; }
+  .section-label { color: #326bda; font-weight: 700; text-transform: uppercase; letter-spacing: 1.1px; font-size: 8pt; margin: 13px 0 5px; }
+  .prompt { background: #f7f9fc; border: 1px solid #e1e8f1; border-radius: 4px; padding: 8px 10px; margin: 0 0 6px; }
+  .prompt b { display: block; font-size: 9pt; color: #18345c; margin-bottom: 2px; }
+  .prompt q { color: #465970; font-size: 8.5pt; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .card { border: 1px solid #e1e8f1; border-radius: 4px; padding: 9px 10px; margin: 0 0 7px; }
+  .card p:last-child { margin-bottom: 0; }
+  .badge { display: inline-block; border-radius: 10px; padding: 2px 7px; margin-right: 5px; font-weight: 700; font-size: 7.5pt; vertical-align: 1px; }
+  .medium { color: #875400; background: #fff0cd; }
+  .low { color: #526176; background: #e9eef5; }
+  .positive { color: #1e684b; background: #e3f4eb; }
+  .small { font-size: 8.2pt; color: #53657b; }
+  .callout { background: #fff8e8; border: 1px solid #f0dcaa; padding: 8px 10px; border-radius: 4px; margin-top: 8px; }
+  .steps { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin: 7px 0 9px; }
+  .step { background: #f7f9fc; border: 1px solid #e1e8f1; padding: 8px 9px; border-radius: 4px; }
+  .step strong { display: block; color: #18345c; margin-bottom: 2px; }
+  ul { margin: 4px 0 8px; padding-left: 17px; }
+  li { margin: 0 0 4px; }
+  .footer { position: absolute; left: .65in; right: .65in; bottom: .28in; border-top: 1px solid #e1e8f1; padding-top: 6px; display: flex; justify-content: space-between; font-size: 7.5pt; color: #718096; }
+  .rule { height: 1px; background: #e1e8f1; margin: 10px 0; }
+  .rec { margin: 0 0 8px; }
+  .rec strong { color: #18345c; }
+  .code { font-family: "Courier New", monospace; font-size: 8pt; color: #43566e; }
+</style>
+</head>
+<body>
+  <section class="page">
+    <div class="topline"></div>
+    <p class="brand">BudgetPro · Engineering review</p>
+    <h1>Performance and Security<br>Review of BudgetPro Using AI</h1>
+    <p class="subtitle">Project: BudgetPro &nbsp;|&nbsp; Scope: React, Node.js/Express, PostgreSQL</p>
+    <div class="hero">
+      <strong>Review type:</strong> AI-assisted, source-based assessment of the checked-in implementation.
+      It identifies code-level controls and scale risks; it is not a penetration test, dependency audit, or measured load test.
+      <div class="meta" style="margin-top:5px">Prepared October 20, 2026 · Reviewed: <span class="code">src/App.jsx</span>, <span class="code">server/index.js</span>, <span class="code">server/schema.sql</span>, <span class="code">package.json</span></div>
+    </div>
+
+    <p class="section-label">01 · Process overview</p>
+    <p>The review followed the application’s data path from browser input through API validation and database operations, then back to UI rendering. Separate, bounded review prompts were used for each layer so findings could be tied to observable code rather than assumptions.</p>
+
+    <div class="prompt">
+      <b>React frontend analysis prompt</b>
+      <q>Trace authentication and transaction data flow in the React client. Check what is stored in the browser, how API failures are handled, how dashboard totals are calculated, and whether rendering or data transfer grows with account history. Cite the relevant implementation and separate current behavior from future scale risk.</q>
+    </div>
+    <div class="prompt">
+      <b>Express/API security prompt</b>
+      <q>Review Express routes, session-cookie settings, authentication, input validation, SQL parameterization, authorization boundaries, error handling, and HTTP protections. For each concern, state preconditions, likely impact, confidence, and a practical mitigation; do not claim exploitability without evidence.</q>
+    </div>
+    <div class="prompt">
+      <b>PostgreSQL and scale prompt</b>
+      <q>Inspect the schema, constraints, indexes, startup behavior, and query shapes. Estimate how transaction volume and concurrent users affect query work, response size, database connections, and financial precision. Recommend incremental changes supported by the observed design.</q>
+    </div>
+    <div class="prompt">
+      <b>Cross-layer synthesis prompt</b>
+      <q>Combine findings without duplicating them. Rank security concerns by severity and confidence; classify each as observed control, observed gap, or conditional risk. Rank performance actions by the expected scaling bottleneck and identify which require measurement.</q>
+    </div>
+
+    <p class="section-label">How outputs were analyzed</p>
+    <div class="steps">
+      <div class="step"><strong>1 · Establish evidence</strong>Read the named source files; map each claim to a route, component, query, or schema constraint. Avoid inferring behavior not shown in source.</div>
+      <div class="step"><strong>2 · Trace end to end</strong>Follow input → validation → authentication/authorization → SQL → response → React state/rendering. Confirm data ownership at the API boundary.</div>
+      <div class="step"><strong>3 · Assess risk</strong>For security, consider preconditions and impact, then assign a qualitative priority. Distinguish exploitable defects from missing defense-in-depth.</div>
+      <div class="step"><strong>4 · Assess scale</strong>Compare query result size and work with account growth; check indexing and connection behavior. Treat expected bottlenecks as hypotheses until load-tested.</div>
+    </div>
+    <p class="small">Prompts above document the review questions used to structure this report; they are not presented as a verbatim transcript of an earlier prompt history. A human engineer should validate findings against deployment configuration and runtime tests.</p>
+    <div class="footer"><span>AI-assisted static source review · BudgetPro</span><span>Page 1 of 3</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topline"></div>
+    <p class="brand">BudgetPro · 02 / Security analysis</p>
+    <h2>Security analysis</h2>
+    <p class="small">No critical or high-severity exploitable defect was confirmed in the reviewed source. The following are concrete hardening gaps or conditional risks that should be addressed before handling real financial data at scale.</p>
+
+    <div class="card">
+      <h3><span class="badge medium">MEDIUM · hardening</span>Authentication endpoints have no visible rate limit</h3>
+      <p>Registration and login accept requests without throttling, lockout, or abuse controls. This can enable high-volume password guessing, credential stuffing, and registration abuse. No successful compromise was demonstrated.</p>
+      <p class="small"><strong>Evidence:</strong> <span class="code">server/index.js:132–169</span>. <strong>Recommendation:</strong> Add per-IP and per-account throttling, progressive backoff, monitoring/alerts, and an abuse-resistant signup flow; test shared-proxy handling to avoid unfair lockouts.</p>
+    </div>
+    <div class="card">
+      <h3><span class="badge medium">MEDIUM · conditional</span>Cookie-authenticated mutations lack explicit CSRF/origin verification</h3>
+      <p>Transaction creation relies on an automatically sent session cookie. <span class="code">SameSite=Lax</span> and an allowlisted CORS origin are useful controls, but CORS is not a general CSRF defense; same-site cross-origin contexts can still matter (for example, a compromised sibling subdomain). The risk depends on domain and deployment topology.</p>
+      <p class="small"><strong>Evidence:</strong> <span class="code">server/index.js:15–20, 49, 202–222</span>. <strong>Recommendation:</strong> Validate the request Origin (and Fetch Metadata where supported) for state-changing routes; add a CSRF token if deployment needs cross-site cookies. Verify with browser-based tests.</p>
+    </div>
+    <div class="card">
+      <h3><span class="badge low">LOW · defense-in-depth</span>Production response security headers are not configured here</h3>
+      <p>The production Express setup serves static assets without visible Helmet/security-header middleware. No Content Security Policy, HSTS, clickjacking, or MIME-sniffing policy is established in this application code. An upstream proxy may already set some headers, so verify the deployed response before treating this as a live exposure.</p>
+      <p class="small"><strong>Evidence:</strong> <span class="code">server/index.js:226–229</span>. <strong>Recommendation:</strong> Add and configure Helmet (including a tested CSP); enforce HSTS at the HTTPS edge and check actual production headers.</p>
+    </div>
+    <div class="card">
+      <h3><span class="badge low">LOW · conditional</span>Seven-day stateless sessions are not revocable server-side</h3>
+      <p>Logout clears the browser cookie, but a copied JWT remains valid until expiry. HttpOnly reduces script access, and no token theft was observed; residual risk depends on a token being exposed through another compromise.</p>
+      <p class="small"><strong>Evidence:</strong> <span class="code">server/index.js:60–61, 166–169</span>. <strong>Recommendation:</strong> Shorten access-token lifetime and introduce revocation/rotation (for example, server-side sessions or a token-version check) if prompt invalidation is required.</p>
+    </div>
+
+    <p class="section-label">Positive controls observed</p>
+    <div class="grid">
+      <div class="card"><p><span class="badge positive">IN PLACE</span>Passwords are hashed with bcrypt (cost 12); raw passwords are not persisted.</p></div>
+      <div class="card"><p><span class="badge positive">IN PLACE</span>JWT is held in an HttpOnly, SameSite=Lax cookie; Secure is enabled in production mode.</p></div>
+      <div class="card"><p><span class="badge positive">IN PLACE</span>Transaction queries are parameterized and scoped to the authenticated user ID.</p></div>
+      <div class="card"><p><span class="badge positive">IN PLACE</span>Request payloads are validated and database constraints reinforce key invariants.</p></div>
+    </div>
+    <div class="callout"><strong>Scope limitation:</strong> This was static code review only. No live PostgreSQL instance, production headers, deployment proxy, browser CSRF test, penetration test, or independent dependency vulnerability scan was assessed for this report.</div>
+    <div class="footer"><span>Priorities are qualitative; conditional findings require deployment verification.</span><span>Page 2 of 3</span></div>
+  </section>
+
+  <section class="page">
+    <div class="topline"></div>
+    <p class="brand">BudgetPro · 03 / Performance considerations</p>
+    <h2>Performance considerations</h2>
+    <p>The app is small and its current schema includes a useful per-user/date index. The largest expected scaling pressure is unbounded transaction-history retrieval—not React’s rendering of the eight visible recent rows.</p>
+
+    <div class="card">
+      <h3>1 · Full history is fetched and summarized in the browser <span class="badge medium">FIRST BOTTLENECK</span></h3>
+      <p><span class="code">GET /api/transactions</span> returns every transaction for the user, and React downloads all rows before filtering the current month and calculating totals. Only eight are displayed in recent activity, but the complete history is still transferred and retained. As accounts grow, response bytes, query execution, client memory, and initial dashboard time rise with transaction count.</p>
+      <p class="small"><strong>Evidence:</strong> <span class="code">server/index.js:186–198</span>; <span class="code">src/App.jsx:190–210, 235–250, 280–299</span>.</p>
+    </div>
+    <div class="card">
+      <h3>2 · Dashboard aggregates are calculated after loading all rows</h3>
+      <p>Monthly income, expenses, and category totals are computed in JavaScript after the full history is fetched. This repeats transfer and client work the database can do more selectively. The existing composite index supports user/date ordering; it does not make an unbounded history response small.</p>
+      <p class="small"><strong>Recommendation:</strong> Add date-bounded SQL aggregate queries for monthly totals/category breakdown, and a separately paginated recent-transactions endpoint. Preserve a stable cursor such as (transaction_date, created_at, id) and the matching index.</p>
+    </div>
+    <div class="card">
+      <h3>3 · Connection demand grows with API replicas</h3>
+      <p>The <span class="code">pg</span> Pool uses its default per-process connection limit. Under load, each Node process/replica can open its own pool; multiplying replicas may exhaust PostgreSQL connections before CPU is saturated.</p>
+      <p class="small"><strong>Recommendation:</strong> Configure pool max, acquisition timeout, and idle timeout from the database connection budget; monitor pool wait time and active connections. Use a pooler such as PgBouncer if deployment concurrency requires it.</p>
+    </div>
+    <div class="card">
+      <h3>4 · Synchronous schema setup is coupled to service startup</h3>
+      <p>Every API process runs <span class="code">CREATE TABLE IF NOT EXISTS</span> and index DDL before listening. This is manageable for a prototype, but production replicas should not race to own schema changes, and the runtime application account needs unnecessary DDL privileges if this stays in the request-serving deployment.</p>
+      <p class="small"><strong>Recommendation:</strong> Move schema changes into versioned, single-run migrations; give the runtime DB role only required data permissions.</p>
+    </div>
+    <div class="card">
+      <h3>5 · Financial amount conversion can lose exact decimal behavior</h3>
+      <p>PostgreSQL stores amounts as exact <span class="code">NUMERIC(12,2)</span>, but SQL casts them to <span class="code">float8</span> and React sums binary floating-point values. Rounding drift can appear across larger histories or calculations.</p>
+      <p class="small"><strong>Recommendation:</strong> Keep aggregates in PostgreSQL <span class="code">NUMERIC</span> and serialize decimal strings, or use integer minor units consistently; add tests for rounding and totals.</p>
+    </div>
+
+    <p class="section-label">Recommended rollout</p>
+    <p class="rec"><strong>Now:</strong> Measure response size and p50/p95 latency with representative small and large histories; add query/connection metrics and error monitoring.</p>
+    <p class="rec"><strong>Before growth:</strong> Split summary aggregates from paginated history; bound page size and add deterministic cursor pagination. Validate query plans with <span class="code">EXPLAIN (ANALYZE, BUFFERS)</span> on realistic data.</p>
+    <p class="rec"><strong>At higher concurrency:</strong> Load-test realistic read/write mixes, tune pool limits against PostgreSQL capacity, and introduce pooling/caching only when measurements justify them. Re-test tenant isolation and totals after query changes.</p>
+    <div class="callout"><strong>Conclusion:</strong> The current design is reasonable for a small application. Prioritize bounded data access and SQL-side summaries before transaction history becomes large; use measurements to determine the point where pooling, caching, or further indexing is warranted.</div>
+    <div class="footer"><span>Forecasts are source-based hypotheses; validate with production-like benchmarks.</span><span>Page 3 of 3</span></div>
+  </section>
+</body>
+</html>
